@@ -1,7 +1,7 @@
 # Real-Time Voice Agent
 
-A real-time voice AI agent built with **Next.js**, **LiveKit**, and **Google Gemini**.  
-Users speak into their microphone, the agent transcribes speech, generates a conversational response, and speaks it back with interruption support.
+A real-time voice AI agent built with **Next.js** and **LiveKit**.  
+Users speak into their microphone, the agent transcribes speech and agent speaks it back with interruption support.
 
 ---
 
