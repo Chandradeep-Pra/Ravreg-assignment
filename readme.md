@@ -13,15 +13,14 @@ Users speak into their microphone, the agent transcribes speech, generates a con
 - pnpm (or npm)
 - Chrome or Edge browser (required for SpeechRecognition)
 - LiveKit Cloud account (free tier)
-- Google Gemini API key (free tier)
 
 ---
 
 ### 2. Clone and Install
 
 ```bash
-git clone <your-repo-url>
-cd <project-folder>
+git clone https://github.com/Chandradeep-Pra/Ravreg-assignment.git
+cd Ravreg-assignment
 pnpm install
 ```
 
@@ -35,8 +34,6 @@ Create a file named `.env.local` in the root directory:
 LIVEKIT_API_KEY=your_livekit_api_key
 LIVEKIT_API_SECRET=your_livekit_api_secret
 NEXT_PUBLIC_LIVEKIT_URL=wss://your-project.livekit.cloud
-
-GEMINI_API_KEY=your_gemini_api_key
 ```
 
 ---
@@ -66,7 +63,6 @@ Allow microphone access and start speaking.
 | LIVEKIT_API_KEY | LiveKit server API key |
 | LIVEKIT_API_SECRET | LiveKit server API secret |
 | NEXT_PUBLIC_LIVEKIT_URL | LiveKit WebSocket URL |
-| GEMINI_API_KEY | Google Gemini API key |
 
 ---
 
@@ -84,14 +80,12 @@ Allow microphone access and start speaking.
 ## External Services
 
 - LiveKit Cloud (WebRTC real-time transport)
-- Google Gemini API (LLM responses)
 
 ---
 
 ## Known Limitations
 
 - SpeechRecognition works only in Chrome and Edge
-- Gemini free tier has rate limits
 - Speech recognition quality depends on browser engine
 - Requires microphone permission
 - Not optimized for production-scale deployment
