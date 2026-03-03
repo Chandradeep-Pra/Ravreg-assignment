@@ -1,4 +1,4 @@
-# Real-Time Voice Agent
+# Speak Back Voice Agent
 
 A real-time voice AI agent built with **Next.js** and **LiveKit**.  
 Users speak into their microphone, the agent transcribes speech and agent speaks it back with interruption support.
